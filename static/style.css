@@ -15,7 +15,7 @@ body {
 
 .jumbo-main {
     background-image: url('trees.jpg');
-    height: 90vh;
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ body {
 }
 .card-container h2 {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 29px;
 }
 
 .card-container p {
@@ -274,7 +274,7 @@ footer {
 /* #############Shifat-Part############## */
 
 .navbar{
-    padding: 1.5% 0%;
+    padding: 15px 0%;
     border-bottom: 2px solid; /* Border width */
     border-image: linear-gradient(228.51deg, #D74EFE -8.95%, #6802EC 112.98%) 1;
     border-image-slice: 1;
@@ -307,7 +307,7 @@ footer {
     background: -webkit-linear-gradient(rgba(215, 78, 254, 1),rgba(104, 2, 236, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+    font-family: "Poppins", sans-serif;
     padding-bottom: 50px;
 
     
@@ -339,7 +339,8 @@ footer {
     height:100px;
     width: 100px;
     border-radius: 100%;
-    
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 
 #dandiaimg{
@@ -347,6 +348,8 @@ footer {
     height: 100px;
     width: 100px;
     border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
     
 }
 
